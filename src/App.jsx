@@ -3,6 +3,7 @@ import { useReducer } from "react";
 import DigitButton from "./components/DigitButton";
 import OperationButton from "./components/OperationButton";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const ACTIONS = {
 	ADD_DIGIT: "add-digit",
 	CHOOSE_OPERATION: "choose-operation",
